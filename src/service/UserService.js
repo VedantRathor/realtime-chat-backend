@@ -1,5 +1,5 @@
 const redisClient = require('../db/redis');
-const { User } = require('../../models');
+const { User } = require('../db/models');
 const userRepository = require('../repository/UserRepository');
 
 class UserService {
